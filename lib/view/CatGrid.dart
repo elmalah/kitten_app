@@ -75,7 +75,7 @@ class _CatGridState extends State<CatGrid> with AfterLayoutMixin {
           });
       int count = Random().nextInt(4);
       catPhotoTiles.add(StaggeredTile.count(count, count.toDouble()));
-
+// set state
       setState(() {});
     });
   }
